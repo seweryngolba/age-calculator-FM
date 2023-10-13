@@ -7,7 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Day DD Month MM Year YYYY -- years -- months -- days
+    <div class="container">
+      <div class="form">
+        <div class="form-input">
+          <label for="days">DAY</label>
+          <input id="days" type="number" min="1" max="31" placeholder="DD" />
+        </div>
+        <div class="form-input">
+          <label for="months">MONTH</label>
+          <input id="months" type="number" min="1" max="12" placeholder="MM" />
+        </div>
+        <div class="form-input">
+          <label for="year">YEAR</label>
+          <input id="year" type="number" min="1" max="12" placeholder="YYYY" />
+        </div>
+        <img class="arrow" src="assets/images/icon-arrow.svg" />
+      </div>
+      <div class="result">
+        <div class="score">
+          <h2>--</h2>
+          <h3>years</h3>
+        </div>
+        <div class="score">
+          <h2>--</h2>
+          <h3>months</h3>
+        </div>
+        <div class="score">
+          <h2>--</h2>
+          <h3>days</h3>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
