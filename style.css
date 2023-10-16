@@ -80,6 +80,7 @@ body {
 .score h2 {
   font-size: 48px;
   color: hsl(259, 100%, 65%);
+  font-style: italic;
 }
 .score h3 {
   font-size: 48px;
@@ -95,4 +96,40 @@ body {
 
 .error-label {
   color: hsl(0, 100%, 50%);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 550px;
+    height: 420px;
+    gap: 10px;
+    padding-left: 40px;
+  }
+  .form {
+    width: 450px;
+    padding-bottom: 30px;
+    justify-content: left;
+    gap: 20px;
+  }
+  .dateInput {
+    width: 120px;
+  }
+  .arrow {
+    bottom: -25px;
+    left: 420px;
+  }
+  .score {
+    gap: 10px;
+  }
+  .score h2 {
+    font-size: 64px;
+    margin-top: -20px;
+  }
+  .score h3 {
+    font-size: 64px;
+    margin-top: -20px;
+  }
+  .result {
+    padding-top: 20px;
+  }
 }
