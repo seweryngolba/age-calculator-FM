@@ -53,9 +53,11 @@ body {
 
 .form-input input {
   padding: 10px;
-  width: 80px;
+  width: 90px;
   border: 2px solid hsl(0, 0%, 94%);
   border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .arrow {
@@ -83,4 +85,9 @@ body {
   font-size: 48px;
   font-weight: 800;
   font-style: italic;
+}
+
+.error {
+  background: hsla(0, 100%, 50%, 0.2);
+  color: red;
 }
